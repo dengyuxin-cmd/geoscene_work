@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="https://cdn.staticfile.org/ol3/4.6.5/ol.css" />
+  <link rel="stylesheet" href="./CSS/style.css" />
+</head>
+<body>
+  <div id="container" >
+    <div id="menu">
+        <h2>一带一路各国概况</h2>
+        <ul class="tree-menu">
+            <li>
+              <span class="folder">亚洲</span>
+              <ul>
+                <li><span class="file">哈萨克斯坦</span></li>
+                <li><span class="file">格鲁吉亚</span></li>
+                <li><span class="file">阿塞拜疆</span></li>
+                <li><span class="file">亚美尼亚</span></li>
+                <li><span class="file">乌兹别克斯坦</span></li>
+                <li><span class="file">土库曼斯坦</span></li>
+                <li><span class="file">吉尔吉斯斯坦</span></li>
+                <li><span class="file">伊朗</span></li>
+                <li><span class="file">伊拉克</span></li>
+                <li><span class="file">土耳其</span></li>
+                <li><span class="file">叙利亚</span></li>
+                <li><span class="file">约旦</span></li>
+                <li><span class="file">黎巴嫩</span></li>
+                <li><span class="file">以色列</span></li>
+                <li><span class="file">沙特阿拉伯</span></li>
+                <li><span class="file">也门</span></li>
+                <li><span class="file">阿曼</span></li>
+                <li><span class="file">阿联酋</span></li>
+                <li><span class="file">卡塔尔</span></li>
+                <li><span class="file">科威特</span></li>
+                <li><span class="file">巴林</span></li>
+                <li><span class="file">塞浦路斯</span></li>
+                <li><span class="file">巴基斯坦</span></li>
+                <li><span class="file">蒙古</span></li>
+                <li><span class="file">印度</span></li>
+                <li><span class="file">孟加拉</span></li>
+                <li><span class="file">缅甸</span></li>
+                <li><span class="file">越南</span></li>
+                <li><span class="file">老挝</span></li>
+                <li><span class="file">柬埔寨</span></li>
+                <li><span class="file">泰国</span></li>
+                <li><span class="file">新加坡</span></li>
+                <li><span class="file">马来西亚</span></li>
+              </ul>
+            </li>
+        </ul>
+        <ul class="tree-menu">
+            <li>
+              <span class="folder">欧洲</span>
+              <ul>
+                <li><span class="file">俄罗斯</span></li>
+                <li><span class="file">乌克兰</span></li>
+                <li><span class="file">白俄罗斯</span></li>
+                <li><span class="file">摩尔多瓦</span></li>
+                <li><span class="file">波兰</span></li>
+                <li><span class="file">立陶宛</span></li>
+                <li><span class="file">爱沙尼亚</span></li>
+                <li><span class="file">拉脱维亚</span></li>
+                <li><span class="file">捷克</span></li>
+                <li><span class="file">斯洛伐克</span></li>
+                <li><span class="file">匈牙利</span></li>
+                <li><span class="file">斯洛文尼亚</span></li>
+                <li><span class="file">克罗地亚</span></li>
+                <li><span class="file">波黑</span></li>
+                <li><span class="file">塞尔维亚</span></li>
+                <li><span class="file">阿尔巴尼亚</span></li>
+                <li><span class="file">罗马尼亚</span></li>
+                <li><span class="file">保加利亚</span></li>
+                <li><span class="file">北马其顿</span></li>
+                <li><span class="file">希腊</span></li>
+              </ul>
+            </li>
+        </ul>
+        <ul class="tree-menu">
+            <li>
+              <span class="folder">非洲</span>
+              <ul>
+                <li><span class="file">埃及</span></li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+    <div id="map"></div>
+    <div id="infoBox"></div>
+    <div id="popup" class="ol-popup">
+      <div id="popup-content"></div>
+    </div>
+  </div>
+
+  <script src="https://cdn.staticfile.org/ol3/4.6.5/ol.js"></script>
+  <script src="./JS/lineInfo.js"></script>
+  <script src="./JS/main.js"></script>
+  <script src="./JS/countryInfo.js"></script>
+  <script src="./JS/menu.js"></script>
+</body>
+</html>
